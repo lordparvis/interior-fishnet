@@ -1,40 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  width: 1366px;
-  margin: 0 auto;
+    width: 1366px;
+    margin: 0 auto;
 }
 
 .padding-site {
-  padding: 0 98px;
+    padding: 0 98px;
 }
 
+
+/*Slider Block start*/
+
 .slider {
-  height: 800px;
-  background-image: url('img/slider.jpg');
+    height: 800px;
+    background-image: url('img/slider.jpg');
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
-  margin-top: 63px;
+    margin-top: 63px;
 }
 
 .menu {
-  display: flex;
-  list-style-type: none;
+    margin-top: 67px;
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-flex;
+    text-transform: uppercase;
+}
+
+.menu li a {
+    text-decoration: none;
 }
 
 .menu a {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 48px;
-  text-align: right;
-  color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    color: #8c8c8c;
 }
 
 .active {
-  font-weight: bold;
-  color: #212121;
+    font-weight: bold;
+    color: #212121;
 }
+
+.slider-box h4 {
+    width: 112px;
+    height: 13px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #43a047;
+    text-transform: uppercase;
+}
+
+.slider-box h5 {
+    width: 448px;
+    height: 43px;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.slider-box p {
+    width: 458px;
+    height: 38px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.slider-box a {
+    width: 124px;
+    height: 13px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #212121;
+    text-decoration: none;
+}
+
+
+/*Slider Block end*/
+
+
+/*Product Block Start*/
+
+.product-block {
+    height: 609px;
+    margin-top: 120px;
+}
+
+.product-block-highlight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-block-highlight ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.product-block-highlight ul li {
+    justify-content: space-evenly;
+}
+
+.product-block-highlight li a {
+    text-decoration: none;
+}
+
+.product-block-images {
+    display: flex;
+    margin-top: 72px;
+}
+
+.product-block-images img {
+    margin-right: 30px;
+}
+
+
+/*Product Block end*/
