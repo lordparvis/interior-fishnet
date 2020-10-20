@@ -54,7 +54,7 @@
     color: #8c8c8c;
 }
 
-.active {
+a.active {
     font-weight: bold;
     color: #212121;
     border-bottom: 3px solid #212121;
