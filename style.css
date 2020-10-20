@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.padding-site {
+  padding: 0 98px;
+}
+
+.slider {
+  height: 800px;
+  background-image: url('img/slider.jpg');
+}
+
+.logo {
+  margin-top: 63px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu a {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: right;
+  color: #8c8c8c;
+}
+
+.active {
+  font-weight: bold;
+  color: #212121;
+}
