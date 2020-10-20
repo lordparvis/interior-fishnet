@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +25,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 288px;
 }
 
 .logo {
@@ -47,9 +48,6 @@
 
 .menu a {
     font-size: 14px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 3.43;
     letter-spacing: 1.4px;
     text-align: right;
@@ -59,17 +57,17 @@
 .active {
     font-weight: bold;
     color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-box {
+    width: 458px;
 }
 
 .slider-box h4 {
-    width: 112px;
-    height: 13px;
-    font-family: Montserrat;
     font-size: 18px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.67;
+    line-height: 13px;
     letter-spacing: 1.8px;
     text-align: left;
     color: #43a047;
@@ -77,51 +75,39 @@
     margin-bottom: 22px;
 }
 
-.slider-box h5 {
-    width: 448px;
-    height: 43px;
-    font-family: Montserrat;
+.slider-box h2 {
     font-size: 62px;
     font-weight: 100;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.16;
-    letter-spacing: normal;
     text-align: left;
     color: #212121;
-    text-transform: uppercase;
     margin-bottom: 34px;
 }
 
 .slider-box p {
-    width: 458px;
-    height: 38px;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
+    line-height: 19px;
     text-align: left;
     color: #6c6c6c;
     margin-bottom: 32px;
 }
 
 .slider-box a {
+    display: block;
+    float: left;
     border-radius: 22.5px;
     box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
     background-color: #ffffff;
     font-size: 18px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.33;
     letter-spacing: 3.6px;
     text-align: center;
     color: #212121;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 16px 29px;
 }
 
 
@@ -159,11 +145,34 @@
 }
 
 .product-block-highlight ul li {
-    justify-content: space-evenly;
+    padding-right: 26px;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border-bottom: 1px #6c6c6c solid;
+}
+
+.product-block-highlight ul li:hover {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    border-bottom: #212121 solid 3px;
 }
 
 .product-block-highlight li a {
     text-decoration: none;
+    color: #6c6c6c;
+}
+
+.product-block-highlight li a:hover {
+    color: #212121;
 }
 
 .product-block-images {
