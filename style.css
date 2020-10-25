@@ -188,3 +188,15 @@ a.active {
 
 
 /*Product Block end*/
+
+
+/* Footer start*/
+
+.footer {
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+
+/*Footer end*/
