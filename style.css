@@ -193,9 +193,36 @@ a.active {
 /* Footer start*/
 
 .footer {
-    width: 1366px;
     height: 384px;
     background-color: #f7f7f7;
+}
+
+.footer-subheaders {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-subheaders h3 {
+    margin-top: 120px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.footer-subcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-subcontent li {
+    list-style-type: none;
+}
+
+.footer-subcontent a {
+    text-decoration: none;
 }
 
 
