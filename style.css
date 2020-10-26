@@ -189,6 +189,11 @@ a.active {
 
 /*Product Block end*/
 
+.phone-app {
+    height: 516px;
+    background: url('img/phone-app.png');
+}
+
 
 /* Footer start*/
 
@@ -223,6 +228,18 @@ a.active {
 
 .footer-subcontent a {
     text-decoration: none;
+}
+
+.company-contacts {
+    margin-right: 78px;
+}
+
+.footer-sales-links {
+    margin-right: 98px;
+}
+
+.footer-others-links {
+    margin-right: 72px;
 }
 
 
