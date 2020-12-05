@@ -76,12 +76,13 @@ a.active {
 }
 
 .slider-box h2 {
-    font-size: 62px;
+    font-size: 61px;
     font-weight: 100;
     line-height: 1.16;
     text-align: left;
     color: #212121;
     margin-bottom: 34px;
+    text-transform: uppercase;
 }
 
 .slider-box p {
@@ -347,12 +348,107 @@ div.trending-highlight {
 }
 
 
-/* Footer start*/
+/*Fishnet Chair Hot Deal Block*/
+
+.hot-deal-slider {
+    background: url('img/slider2.png');
+    height: 800px;
+    margin-bottom: 120px;
+}
+
+.second-slider-box {
+    width: 458px;
+    padding-top: 287px;
+}
+
+.second-slider-box h4 {
+    /* Style for "Hot deal" */
+    color: #e53935;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "Hot deal" */
+    color: #e53935;
+    letter-spacing: 1.8px;
+}
+
+.second-slider-box h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 61px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.16;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.second-slider-box p {
+    /* Style for "Seat and b" */
+    width: 458px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+
+/*Phone App Block*/
 
 .phone-app {
     height: 516px;
     background: url('img/phone-app.png');
 }
+
+.phone-app h4 {
+    padding-top: 125px;
+    /* Style for "mobile app" */
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "mobile app" */
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+}
+
+.phone-app h3 {
+    margin-top: 22px;
+    /* Style for "Find. Foll" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.phone-app p {
+    /* Style for "Save your" */
+    width: 417px;
+    height: 21px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 33px;
+}
+
+.phone-app img {
+    margin-top: 33px;
+}
+
+
+/* Footer start*/
 
 .footer {
     height: 384px;
