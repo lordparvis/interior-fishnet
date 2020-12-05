@@ -5,7 +5,7 @@
     font-family: 'Montserrat';
 }
 
-.container {
+main {
     width: 1366px;
     margin: 0 auto;
 }
@@ -93,7 +93,7 @@ a.active {
     margin-bottom: 32px;
 }
 
-.slider-box a {
+.order-us {
     /*
     box-sizing: border-box;
     padding: 0 31px;*/
@@ -112,7 +112,7 @@ a.active {
     padding: 16px 29px;
 }
 
-.slider-box a:hover {
+.order-us:hover {
     box-shadow: 0px 2px 4.9px 0.2px rgba(66, 666, 33, 0.35);
 }
 
@@ -140,8 +140,6 @@ a.active {
 .product-block-highlight>a {
     font-size: 18px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.33;
     letter-spacing: 3.6px;
     text-align: center;
@@ -154,10 +152,6 @@ a.active {
     padding-right: 26px;
     font-size: 36px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     border-bottom: 1px #6c6c6c solid;
 }
 
@@ -171,6 +165,18 @@ a.active {
 .product-block-highlight li a {
     text-decoration: none;
     color: #6c6c6c;
+}
+
+
+/* Style for "Featured" */
+
+.featured {
+    height: 27px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
 }
 
 .product-block-highlight li a:hover {
@@ -188,6 +194,25 @@ a.active {
 
 
 /*Product Block end*/
+
+
+/* Exclusive Block start*/
+
+.fishnet-exclusive {
+    display: flex;
+}
+
+.exclusive-red {
+    background: url('img/exclusive-chair/promo-red.png');
+    height: 683px;
+    width: 683px;
+}
+
+.exclusive-brown {
+    background: url('img/exclusive-chair/promo-brown.png');
+    height: 683px;
+    width: 683px;
+}
 
 .phone-app {
     height: 516px;
