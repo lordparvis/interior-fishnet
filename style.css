@@ -200,6 +200,7 @@ a.active {
 
 .fishnet-exclusive {
     display: flex;
+    margin-bottom: 118px;
 }
 
 .exclusive-red {
@@ -208,19 +209,150 @@ a.active {
     width: 683px;
 }
 
+div.exclusive-red>h4 {
+    /* Style for "exclusive" */
+    margin: 228px 514px 2px 51px;
+    color: #1e88e5;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+}
+
+div.exclusive-red>h3 {
+    /* Style for "Fishnet Ch" */
+    margin-left: 52px;
+    margin-bottom: 3px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+div.exclusive-red>p {
+    /* Style for "Seat and b" */
+    margin-right: 259px;
+    margin-left: 50px;
+    margin-bottom: 33px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    text-align: left;
+}
+
+div.exclusive-red>a {
+    margin-left: 50px;
+}
+
 .exclusive-brown {
     background: url('img/exclusive-chair/promo-brown.png');
     height: 683px;
     width: 683px;
 }
 
-.phone-app {
-    height: 516px;
-    background: url('img/phone-app.png');
+
+/* Style for "exclusive brown heading" */
+
+div.exclusive-brown>h4 {
+    margin: 228px 514px 2px 51px;
+    color: #1e88e5;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+}
+
+div.exclusive-brown>h3 {
+    /* Style for "Fishnet Ch" */
+    margin-left: 52px;
+    margin-bottom: 3px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+div.exclusive-brown>p {
+    /* Style for "Seat and b" */
+    margin-right: 259px;
+    margin-left: 50px;
+    margin-bottom: 33px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    text-align: left;
+}
+
+div.exclusive-brown>a {
+    margin-left: 50px;
+}
+
+
+/*Trending Products*/
+
+.trending-products {
+    margin-bottom: 120px;
+}
+
+div.trending-highlight {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+}
+
+.trending-highlight>h3 {
+    /* Style for "Trending P" */
+    font-size: 36px;
+    text-align: left;
+}
+
+.trending-highlight>a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.trending-first-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.trending-second-row {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
 /* Footer start*/
+
+.phone-app {
+    height: 516px;
+    background: url('img/phone-app.png');
+}
 
 .footer {
     height: 384px;
