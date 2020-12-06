@@ -400,6 +400,58 @@ div.trending-highlight {
 }
 
 
+/*Exclusive Other Products*/
+
+.red-pillow {
+    background: url('img/exclusive/product-1-lg.png');
+    width: 570px;
+    height: 570px;
+}
+
+div.red-pillow>h4 {
+    margin-top: 186px;
+    color: #1e88e5;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+}
+
+div.red-pillow>h3 {
+    /* Style for "Fishnet Ch" */
+    margin-left: 52px;
+    margin-bottom: 3px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+div.red-pillow>p {
+    /* Style for "Seat and b" */
+    margin-right: 259px;
+    margin-left: 50px;
+    margin-bottom: 33px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    text-align: left;
+}
+
+div.red-pillow>a {
+    margin-left: 30px;
+}
+
+
 /*Phone App Block*/
 
 .phone-app {
